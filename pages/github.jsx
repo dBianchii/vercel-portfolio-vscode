@@ -50,6 +50,7 @@ const GithubPage = ({ repos, user }) => {
 };
 
 export async function getStaticProps() {
+  //console.log(process.env.NEXT_PUBLIC_GITHUB_USERNAME.toString())
   const userRes = await fetch(
     `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
     {

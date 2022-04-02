@@ -3,54 +3,39 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    link: 'gabrielbianchi.com',
+    href: 'https://gabrielbianchi.com',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'gdbianchii@gmail.com',
+    href: 'mailto:gdbianchii@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
+    link: 'dBianchii',
     href: 'https://github.com/itsnitinr',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'Gabriel Bianchi',
+    href: 'https://www.linkedin.com/in/gabriel-bianchi-8137ab212/',
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    link: 'GabrielOnTheBlockchain',
+    href: 'https://twitter.com/gdbianchii',
   },
   {
     social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
+    link: 'gdbianchii',
+    href: 'https://www.instagram.com/gdbianchii',
   },
-  {
-    social: 'polywork',
-    link: 'nitinranganath',
-    href: 'https://www.polywork.com/nitinranganath',
-  },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'codepen',
-    link: 'nitinranganath',
-    href: 'https://codepen.io/itsnitinr',
-  },
-  {
-    social: 'codesandbox',
-    link: 'itsnitinr',
-    href: 'https://codesandbox.io/u/itsnitinr',
-  },
+  //{
+  //  social: 'telegram',
+  //  link: 'Gabriel Bianchi',
+  //  href: 'https://t.me/gabrielbianchi',
+  //},
 ];
 
 const ContactCode = () => {

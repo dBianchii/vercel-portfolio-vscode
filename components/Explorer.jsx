@@ -25,10 +25,15 @@ const explorerItems = [
     path: '/projects',
     icon: 'js_icon.svg',
   },
+  //{
+  //  name: 'articles.json',
+  //  path: '/articles',
+  //  icon: 'json_icon.svg',
+  //},
   {
-    name: 'articles.json',
-    path: '/articles',
-    icon: 'json_icon.svg',
+    name: 'web3.sol',
+    path: '/web3',
+    icon: 'solidity_icon.svg',
   },
   {
     name: 'github.md',

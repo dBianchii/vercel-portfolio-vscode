@@ -6,5 +6,6 @@ export const getProjects = () => {
 
 export default (req, res) => {
   const projects = getProjects();
+  console.log(projects)
   res.json(projects);
 };
